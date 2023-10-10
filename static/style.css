@@ -1,0 +1,157 @@
+body {
+    margin-top: 50px;
+    background-color: #a3d5d3;
+    font-family: Open Sans;
+    text-align: center;
+  }
+  
+  div {
+    margin: auto;
+  }
+  
+  img {
+    margin-top: 1px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 17px;
+    text-align: justify;
+  }
+  
+  #records-list {
+    text-align: justify;
+    padding: 10px 30px 10px 30px;
+    /** display: table;
+    width: 100%; */
+  }
+  
+  #records-list ul {
+    line-height: 2;
+    font-size: 16px;
+  }
+  
+  .card {
+    background-color: #FFFFFF;
+    margin: 10px;
+  }
+  
+  .card-img-top {
+    margin-bottom: 10px;
+    height: 241.68px;
+    width: 100%;
+  }
+  
+  .card-block {
+    padding: 0px 20px 20px 20px;
+  }
+  
+  #card-argentina ul{
+    line-height: 2.4;
+  }
+  
+  #card-spain ul {
+    line-height: 2.2499999;
+  }
+  
+  /** .row1 {
+    display: table-cell;
+  } */
+  
+  footer {
+    margin-left: 41px;
+  }
+  
+  /** .row.row1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row.row1 > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  #card-block-quote {
+    padding: 40px;
+  }
+  
+  blockquote {
+    padding: 20px;
+    background-color: aliceblue;
+  }
+  
+  blockquote p {
+    font-size: 24.5px;
+    padding: 0px 20px 0px 20px;
+    line-height: 1.55;
+    font-weight: 600;
+  }
+  
+  #img-maradona {
+    height: auto;
+    border-radius: 50%;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .quote-mark {
+    font-size: 47px;
+    font-family: Dubtronic;
+    font-weight: bolder;
+    display: block;
+  }
+  
+  .figures {
+    font-weight: 600;
+  }
+  
+  #name {
+    color: firebrick;
+    font-weight: 600;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  a {
+    color: whitesmoke;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer {
+    margin-top: auto;
+    z-index: 2;
+    width: 100%;
+    margin: 0PX;
+  }
+  
+  footer p a:hover {
+    border-bottom: 2px solid whitesmoke;
+  }
+  footer p{
+    margin-top: 5px;
+  }
+.nav-item a {
+    padding: 5px;
+    font-size: 20px;
+    transition: transform 0.3s;
+  }
+
+  .item{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+  }
+  .icon-list{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-item a:hover {
+    transform: translateY(-2px) scale(1.2);
+  }
